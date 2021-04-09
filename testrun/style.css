@@ -1,0 +1,54 @@
+/*cascading style sheet*/
+
+/*selector {
+    property: value;
+    property: value;
+}*/
+body {
+    background-color: #3d2a57; /*#rrggbb, #000000 (#000)= black, #ffffff (#fff)= white*/
+    /*multi-word fonts need to be in quotes*/
+    font-family: 'New Tegomin', serif;
+    color: #fff;
+
+}
+
+h1, h2, h3 {
+    color: #fff;
+
+}
+
+/*reads from top to bottom, so you can go in and change a single aspect after base settings*/
+h1 {
+    font-size: 60px;
+    color: #b0e8a9;
+    /*center, left, right, justify*/
+    text-align: center;
+}
+
+p {
+    /*800px, 25%*/
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.box {
+    width: 800px;
+    height: 800px;
+    background-color: lightblue;
+}
+
+a {
+    color: white;
+}
+
+/*notes/helpful*/
+margin-left: 200px;
+padding-left: 200px;
+
+img {
+    margin-top: 15px;
+}

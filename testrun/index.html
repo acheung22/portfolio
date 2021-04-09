@@ -1,0 +1,92 @@
+<!--hypertext markup language-->
+<!-- marker to indicate this is an html file -->
+<!DOCTYPE html>
+
+<!--optimize site for mobile formatting-->
+
+<!--uses angle brackets for all parts,
+always has opening and closing tags which code should be inside-->
+<html>
+    <!--skeleton of the code,
+    head tag = link to other files, meta data, non-visible stuff-->
+    <head>
+        <title>My Website</title>
+
+        <!--hyper reference = linking to another file,
+        relationship = what type it is -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">"
+
+        <!--make sure your css link is always the last one linked down on the page-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <!--body tag = all the content-->
+    <body>
+
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <!--only headers 1-6-->
+        <h6>Header 6</h6>
+
+        <!--paragraphs put blank line spaces after itself-->
+
+
+        <!--bootstrap, all items need to be in a row, under a column-->
+        <!--class name to differentiate items of the same type, but wanting different formatting-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+
+              <!--target="_blank" opens up a new tab when link clicked-->
+              <a href="page2.html" target="_blank">Link to page 2</a>
+              <a href="page2.html">Link to page 2</a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna tellus, fermentum at elit ut, euismod placerat elit. Mauris facilisis eros nisi, vitae sagittis lorem commodo id. Ut pharetra tortor a nulla luctus, eget pretium justo ultricies. Vivamus non ante dignissim, auctor nisl quis, fermentum lectus. Aliquam vestibulum ac mi sed tempor. Etiam sit amet mauris et lacus dignissim bibendum. Phasellus in ex a ante fringilla lacinia. Quisque non erat eget diam mattis tempor eget id urna. Phasellus viverra eget turpis et maximus. Fusce facilisis vestibulum tincidunt. Aenean dolor ligula, efficitur in facilisis et, facilisis rhoncus enim. Aliquam luctus eget leo condimentum euismod. Ut faucibus eget dui et fringilla.</p>
+            </div>
+            <div class="col-sm">
+              <img width="300px" src="https://japan-forward.com/wp-content/uploads/2020/05/Rural-Covid-19--1024x683.jpg">
+            </div>
+            <div class="col-sm">
+              <p>Pellentesque quis tortor eu odio pretium tincidunt. Integer sit amet velit quis augue facilisis cursus vel consequat enim. Suspendisse fermentum nibh non commodo bibendum. Aenean interdum luctus mi, sed scelerisque augue tempus et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus ultrices nibh est, id posuere metus varius a. Praesent vestibulum nisl vel lorem congue mattis. Duis ex justo, tempor a orci eu, molestie congue velit. Vivamus vel convallis ante. Sed sed turpis in felis maximus dignissim. Nullam tristique, velit id aliquam blandit, dolor arcu viverra ligula, commodo elementum sapien est nec felis. In quis leo urna. Proin dapibus, urna a mollis ultrices, nisi neque posuere libero, vitae laoreet nulla justo in lorem. Quisque non dolor tempus, sagittis quam id, egestas justo. Mauris luctus, nunc sed egestas rutrum, felis sem molestie sapien, ultrices accumsan nibh eros non dolor.</p>
+            </div>
+
+            <!--columns 1-12 for different sized columns-->
+            <!--use specific style tags for a single header, etc-->
+            <div class="col-3">
+              <h2 style="color: red; font-size: 80px;">
+                column 1
+              </h2>
+            </div>
+          </div>
+        </div>
+
+<!-- ????? <div> class="box"</div>-->
+
+        <!--source (src), using copy image address-->
+        <!--don't forget closing angle bracket for images-->
+
+        <!--<img src="link">-->
+
+    </body>
+</html>
+
+
+<img style="background-image: url("images/staple.JPG")" src="images/staple.JPG">
+
+
+overlayed image and text with background image
+
+<div style= "margin-right: 0; margin-left: 0; background-image: url(images/staple.JPG);" class="container">
+        <div style="row justify-content-center">
+          <div style="col-4">
+            <img style= "margin-top: 20px" width= "600px" src="images/aerin2.JPEG">
+          </div>
+          <div style="col-4">
+            <p style="font-size: 60px;">welcome</p>
+          </div>
+        </div>
+      </div>
+      
+      

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #ad1c1c;
+}
+
+h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 75px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 80px;
+}
+
+p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+.btn-group {
+    width: 75px;
+    margin-top: 25px;
+
+}
+
+
+img {
+    padding: 25px;
+}
+
+.container {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100vw;
+}
